@@ -256,14 +256,7 @@ a>img {
 .feature-list .feature-item + .feature-item {
     margin-left: 30px;
 }
-/*
-.feature-button {
-    display: inline-flex;
-    padding: 10px 20px;
-    background-color: var(--team);
-    text-decoration: none;
-}
-*/
+
 .feature  {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -282,3 +275,28 @@ a>img {
     color: var(--contact);    
 }
 /*work*/
+.works {
+    padding-bottom: 94px;
+}
+.work {
+    padding-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-color); 
+    text-align: center;   
+}
+.work-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.work-item {
+    display: flex;
+}
+.work-list .work-item + .work-item {
+    margin-left: 30px;
+}
+/*team*/
