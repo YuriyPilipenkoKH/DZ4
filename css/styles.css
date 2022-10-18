@@ -249,7 +249,21 @@ a:active, a:focus { outline: none; }
 .feature-item {
     display: flex;
 } 
+.plane {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--team);
+    border-radius: 4px;    
+}
+.feature-icon {
+    width: 70px;
+    height: 70px;
 
+}
+/*
 .feature-item::before { 
     display: inline-block;
     content: "";
@@ -274,6 +288,7 @@ a:active, a:focus { outline: none; }
 .icon-astronaut::before {
     background-image: url(../images/astronaut.svg);
 }
+*/
 
 .feature-list .feature-item {  
     flex-direction: column;
