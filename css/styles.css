@@ -258,12 +258,13 @@ a:active, a:focus { outline: none; }
     background: var(--team);
     border-radius: 4px;    
 }
+/*
 .feature-icon {
     width: 70px;
     height: 70px;
 
 }
-/*
+
 .feature-item::before { 
     display: inline-block;
     content: "";
@@ -275,7 +276,7 @@ a:active, a:focus { outline: none; }
     background-position: center;
 
 }
-
+   
 .icon-antenna::before {
     background-image: url(../images/antenna.svg);
 }
