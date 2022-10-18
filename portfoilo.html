@@ -19,28 +19,239 @@
         <nav>
             <ul class="nav list">
                 <li class="nav-item">
-                    <a href="./index.html" class="top1">Студія</a>
+                    <a href="./index.html" class="nav-link">Студія</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./portfolio.html" class="top2 current">Портфоліо</a>
+                    <a href="./portfoilo.html" class="nav-link current">Портфоліо</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="top3">Контакти</a>
+                    <a href="#" class="nav-link">Контакти</a>
                 </li>
             </ul>
         </nav>
         <ul class="contacts list">
-            <li class="contacts-item">
-                <a href="mailto:info@devstudio.com" class="top4">info@devstudio.com</a>
+            <li class="contacts-item">         
+                <a href="mailto:info@devstudio.com" class="contacts-link">
+                    <svg
+                    viewBox="0 0 32 32"
+                    class="icon-envelope">
+                    <use xlink:href="./images/sprite.svg#envelope"></use>
+                    </svg>   
+                    info@devstudio.com
+                    </a>
             </li>
             <li class="contacts-item">
-                <a href="tel:+380961111111" class="top5">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="contacts-link">
+                    <svg
+                    viewBox="0 0 32 32"
+                    class="icon-smartphone">
+                    <use xlink:href="./images/sprite.svg#smartphone"></use>
+                    </svg>  
+                    +38 096 111 11 11
+                </a>
             </li>
         </ul>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <!--portfolio-->
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <h1 class="visually-hidden">Портфоліо</h1>
+            <ul class="button-list list">
+                <li class="radio-button">
+                    <button type="button" class="menu-button">Усі</button>  
+                </li>
+                <li class="radio-button">
+                    <button type="button" class="menu-button">Веб-сайти</button>
+                </li>
+                <li class="radio-button">
+                    <button type="button" class="menu-button">Додатки</button>
+                </li>
+                <li class="radio-button">
+                    <button type="button" class="menu-button">Дизайн</button>
+                </li>
+                <li class="radio-button">
+                    <button type="button" class="menu-button">Маркетинг</button>
+                </li>
+            </ul>
+            <ul class="flex-container list">
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio1.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Технокряк</h2>
+                        <p class="image-attribute">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio2.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Постер New Orlean vs Golden Star</h2>
+                        <p class="image-attribute">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio3.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Ресторан Seafood</h2>
+                        <p class="image-attribute">Додаток</p>
+                    </div>
+                    </a> 
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio4.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Проєкт Prime</h2>
+                        <p class="image-attribute">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio5.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Проєкт Boxes</h2>
+                        <p class="image-attribute">Додаток</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio6.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Inspiration has no Borders</h2>
+                        <p class="image-attribute">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img 
+                    alt="image description"
+                    src="./images/portfolio7.jpg"
+                    width="370"> 
+                    <div class="project-description">
+                        <h2 class="image-name">Видання Limited Edition</h2>
+                        <p class="image-attribute">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio8.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Проєкт LAB</h2>
+                        <p class="image-attribute">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="flex-element">
+                    <a href="#" class="image-item">
+                        <img
+                    alt="image description"
+                    src="./images/portfolio9.jpg"
+                    width="370">
+                    <div class="project-description">
+                        <h2 class="image-name">Growing Business</h2>
+                        <p class="image-attribute">Додаток</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+            </div>   
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container footer-content">
+            
+            <div class="requisites">
+              <a href="#" class="logo1-down">Web<span class="logo3">Studio</span></a>
+            <address class="address">
+                <ul class="address-list list">
+                    <li class="address-item">
+                        <a href="https://goo.gl/maps/1cysregupnzZVwGy7"
+                        target="_blank" rel="noreferrer noopener" 
+                        class="map">м. Київ, пр-т Лесі Українки, 26</a>
+                     </li>
+                    <li class="address-item">
+                        <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                    <li class="address-item">
+                        <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+  
+            </div>
+            <div class="join">
+              <h2 class="join-title">приєднуйтесь</h2>
+              <ul class="footer-item-social">
+                <li class="social-item">
+                  <a href="#" class="footer-social-link">
+                    <svg
+                      viewBox="0 0 32 32"
+                      class="footer-social">
+                      <use xlink:href="./images/social-icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="footer-social-link">
+                    <svg
+                      viewBox="0 0 32 32"
+                      class="footer-social">
+                      <use xlink:href="./images/social-icons.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="footer-social-link">
+                    <svg
+                      viewBox="0 0 32 32"
+                      class="footer-social">
+                      <use xlink:href="./images/social-icons.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="footer-social-link">
+                    <svg
+                      viewBox="0 0 32 32"
+                      class="footer-social">
+                      <use xlink:href="./images/social-icons.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
