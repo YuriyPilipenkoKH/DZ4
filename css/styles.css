@@ -30,7 +30,7 @@
     --image-border: #EEEEEE;
     --head-image-overlay: #2F303A66;
     --image-overlay-1: #2F303A66;
-    --image-overlay-2: #C4C4C419;
+    --image-overlay-2: #C4C4C4;
     --footer-social: #FFFFFF19;
 
     --color-third: #afb1b8;
@@ -176,12 +176,11 @@ a:active, a:focus { outline: none; }
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid var(--button);
-
+    background-color: var(--image-overlay-2);
     background-image: linear-gradient(
         to right,
         var(--image-overlay-1),
-        var(--image-overlay-2)
+        var(--image-overlay-1)
 
     ),
     url("../images/header-image.jpg");
@@ -220,7 +219,7 @@ a:active, a:focus { outline: none; }
     background-color: var(--button);
     border-radius: 4px;
     border-color: transparent;
-    border: 1px solid var(--button);
+    
     cursor: pointer;
 }
 .order-button:hover,
@@ -321,7 +320,7 @@ a:active, a:focus { outline: none; }
     padding-bottom: 94px;
 }
 .work {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
@@ -438,7 +437,7 @@ a:active, a:focus { outline: none; }
 } 
 /*clients*/
 .clients {
-    padding:  94px;
+    padding: 94px 0;
 }
 .clients-title {
     margin-bottom: 50px;
@@ -539,10 +538,10 @@ a:active, a:focus { outline: none; }
 
 .footer-content {
     display: flex;
+    align-items: baseline;
     
 }
 .join {
-    margin-top: 12px;
     margin-left: 80px;
     width: 206px;
 }
@@ -613,7 +612,6 @@ a:active, a:focus { outline: none; }
     background-color: var(--team);
     border-radius: 4px;
     border-color: transparent;  
-    border: 1px solid var(--team);  
     cursor: pointer;
 }
 .button-list .radio-button + .radio-button {
@@ -668,3 +666,38 @@ a:active, a:focus { outline: none; }
     border-right: 1px solid var(--image-border);
     border-bottom: 1px solid var(--image-border); 
 }
+
+
+
+.animal-face {
+    display: flex;
+    gap: 5px;
+  }
+  .fot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+  }
+  .an-face {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    stroke: #2f303a;
+    
+    color: #2f303a;
+
+  }
+  .fot:hover svg {
+    
+  }
+  .fot:hover {
+    background-color: #2196f3d4;
+    border-radius: 50%;
+    
+  }
+
