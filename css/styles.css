@@ -275,7 +275,7 @@ a:active, a:focus { outline: none; }
     background-position: center;
 
 }
-   
+ 
 .icon-antenna::before {
     background-image: url(../images/antenna.svg);
 }
@@ -289,6 +289,31 @@ a:active, a:focus { outline: none; }
     background-image: url(../images/astronaut.svg);
 }
 */
+
+.parabolic {
+    background-image: url(../images/parabolic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.puntual {
+    background-image: url(../images/clock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.planning {
+    background-image: url(../images/diag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.astro {
+    background-image: url(../images/cosmo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 .feature-list .feature-item {  
     flex-direction: column;
@@ -550,6 +575,7 @@ a:active, a:focus { outline: none; }
 .footer-item-social {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -566,14 +592,22 @@ a:active, a:focus { outline: none; }
     border-radius: 50%;
 }
 .footer-social {
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
     color: var(--main-background);
+
   
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
     background: var(--button);
+
+
+}
+.footer-social-link:hover svg,
+.footer-social-link:focus svg {
+    fill: #ffffff;
+    
 
 }
 
