@@ -150,23 +150,24 @@ a:active, a:focus { outline: none; }
 .contacts-link {
     color: var(--contact);
 }
-   
+
+/* Thin blue line */
+.nav .current {
+    
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 0;
+
+}   
 .nav .current::after {
+
     content: "";
     height: 4px;
     background-color: var(--button);
     border-radius: 4px;
     margin-top: 28px;
-   
 }
-.nav .current {
-    display: flex;
-    flex-direction: column;
-    padding-top: 32px;
-    padding-bottom: 0;
-    
-
-}
+/* Thin blue line */
 
 .nav-link:hover,
 .contacts-link:hover,
