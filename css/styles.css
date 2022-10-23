@@ -68,6 +68,7 @@ a>img {
 a:active, a:focus { outline: none; }
 :focus {outline:none;}
 
+
 /* header */
 .header {
 
@@ -122,6 +123,10 @@ a:active, a:focus { outline: none; }
 .contacts .contacts-item + .contacts-item { 
     margin-left: 30px;
 }
+
+
+
+
 .contacts {
     display: flex;
     justify-content: flex-start;
@@ -146,6 +151,23 @@ a:active, a:focus { outline: none; }
     color: var(--contact);
 }
    
+.nav .current::after {
+    content: "";
+    height: 4px;
+    background-color: var(--button);
+    border-radius: 4px;
+    margin-top: 28px;
+   
+}
+.nav .current {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 0;
+    
+
+}
+
 .nav-link:hover,
 .contacts-link:hover,
 .nav-link:focus,
@@ -164,6 +186,7 @@ a:active, a:focus { outline: none; }
     
     color: var(--button);
 }
+
 
 
 /*main*/
