@@ -2,6 +2,8 @@
     --main-color: #212121;
     --main-background: #ffffff;
     --button: #2196F3;
+    --cue: #2196FE63;
+
     --footer: #2F303A;
     --button-active:#188CE8 ;
     --logo2: #000000;
@@ -691,10 +693,14 @@ a:active, a:focus { outline: none; }
     gap: 30px;
    
     list-style-type: none;
+    
 }
 .flex-element {
+    position: relative;
     display: flex;
-    flex-basis: calc((100% - 2 * 30px)/ 3); 
+    flex-basis: calc((100% - 2 * 30px)/ 3);
+    
+    overflow: hidden;
 }
 
 .image-item {
@@ -703,6 +709,27 @@ a:active, a:focus { outline: none; }
 .image-item:hover {
     box-shadow: var(--box-shadow-fourth);
 }
+
+.picture::before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cue);
+
+    transform: translateX(-100%);
+    transition: transform 250ms
+     cubic-bezier(0.4, 0, 0.2, 1);
+}
+.flex-element:hover .picture::before {
+    transform: translateX(0);
+
+
+}
+
 .image-name { 
     margin-bottom: 4px;
     font-weight: 700;
