@@ -2,7 +2,7 @@
     --main-color: #212121;
     --main-background: #ffffff;
     --button: #2196F3;
-    --cue: #2196FE63;
+    --cue: #2196F3E6;
 
     --footer: #2F303A;
     --button-active:#188CE8 ;
@@ -50,9 +50,7 @@ h1,h2,h3,p,ul {
     margin-top: 0;
     margin-bottom: 0;
 }
-a>img {
-    display: block;
-}
+
 
 .list {
     padding: 0;
@@ -70,8 +68,10 @@ a>img {
 a:active, a:focus { outline: none; }
 :focus {outline:none;}
 
-img {
-    display: block;}
+div>img {
+    display: block;
+}
+
 
 
 /* header */
