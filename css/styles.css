@@ -128,8 +128,21 @@ div>img {
 .contacts .contacts-item + .contacts-item { 
     margin-left: 30px;
 }
+.current {
+    position: relative;
+}
+.current::after {
+    position: absolute;
+    display: block;
+    bottom: -2px;
 
+    content: '';
+    min-width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--button);
 
+}
 
 
 .contacts {
@@ -153,26 +166,13 @@ div>img {
 }
 
 .contacts-link {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 140px;
     color: var(--contact);
 }
-
-/* Thin blue line */
-.nav .current {
-    
-    flex-direction: column;
-    padding-top: 32px;
-    padding-bottom: 0;
-
-}   
-.nav .current::after {
-
-    content: "";
-    height: 4px;
-    background-color: var(--button);
-    border-radius: 4px;
-    margin-top: 28px;
-}
-/* Thin blue line */
 
 .nav-link:hover,
 .contacts-link:hover,
@@ -183,16 +183,22 @@ div>img {
 
 .icon-envelope,
 .icon-smartphone {
-    width: 30px;
-    height: 16px;
-    color: var(--contact);
+    fill: var(--contact);
+    
+}
+.icon-envelope {
+    position: absolute;
+    left: -26px;
+    top: calc(50% - 6px);
 }
 .contacts-link:hover svg,
 .contacts-link:focus svg {
     
-    color: var(--button);
+    fill: var(--button);
 }
-
+.email {
+    position: relative;
+}
 
 
 /*main*/
