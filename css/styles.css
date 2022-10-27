@@ -480,8 +480,7 @@ div>img {
 
 }
 .icon-social {
-    width: 44px;
-    height: 44px;
+    fill: var(--contact)
     
     
 }
@@ -492,7 +491,7 @@ div>img {
 }
 .social-link:hover svg,
 .social-link:focus svg {
-    color: var(--main-background);
+    fill: var(--main-background);
     
 } 
 /*clients*/
