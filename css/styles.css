@@ -575,6 +575,7 @@ div>img {
 
 /*footer*/
 .footer {   
+    position: relative;
     background: var(--footer);
     padding: 60px 0 60px 0;
 }
@@ -863,12 +864,15 @@ div>img {
     border-color: #2196F3;
   }
  .hidden-beast {
-    margin-left: 200px;
+    
     
  }
  .jacal {
+    position: absolute;
+    left: 220px;
+    top: 220px;
     fill:var(--footer);
-    scale: 1.5;
+    scale: 2;
 
  }
  .jacal:hover {
