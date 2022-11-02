@@ -56,7 +56,7 @@ body {
 
 }
 
-h1,h2,h3,p,ul {
+h1,h2,h3,h4,h5,p,ul {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -77,7 +77,7 @@ h1,h2,h3,p,ul {
 }
 
 
-div>img {
+img {
     display: block;
 }
 
@@ -949,4 +949,8 @@ div>img {
 .cross {
 
     fill: var(--logo2);
+        
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
 }
