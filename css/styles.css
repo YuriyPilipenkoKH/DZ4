@@ -1012,22 +1012,22 @@ img {
     transition-timing-function: var(--cubic);
 }
 .accept {
-    position: absolute;
+    /* position: absolute;
     
     left: 7px;
     width: 16px;
     height: 15px;
     border: 2px solid var(--logo2);
     border-radius: 2px;
-    transition: border 250ms var(--cubic);
+    transition: border 250ms var(--cubic); */
 }
 .check-box:checked ~ .check-icon  {
-    fill: var(--button);
+    fill: crimson;
     
 }
 .check-box:checked ~ .accept {
-    border: 2px solid var(--button);
-    background-origin: border-box;
+    /* border: 2px solid var(--button);
+    background-origin: border-box; */
  
 }
 .check-box:focus ~ .check-icon  {
@@ -1039,7 +1039,33 @@ img {
 .gone-fishing {
     fill: #fff;
 }
+.club {
+    margin-left: 50px;
+}
 .check-box:checked ~ .club {
-    fill: var(--button-active);
-    scale: 1.4;
+   
+    
+}
+svg path {
+fill:inherit;
+stroke:inherit;
+} 
+/* .ic-1 ~ #ch-r ~ path.r-qa {
+    fill: rgb(251, 255, 0);
+    stroke: #000;
+    stroke-width: 1px;
+    color: crimson;
+}
+.r-ws {
+    fill: crimson;
+    color: crimson;
+    stroke: #000;
+} */
+.check-box:checked ~ .ic-1 {
+   
+    
+}
+.check-box:hover ~ .ic-1 {
+   
+    
 }
