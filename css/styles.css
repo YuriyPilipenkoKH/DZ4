@@ -772,7 +772,7 @@ img {
     padding: 63px 24px;
 
     transform: translateX(-100%);
-    transition: transform 1550ms
+    transition: transform 2550ms
     cubic-bezier(.86,3.57,.29,1.9) ;
 }
 .flex-element:hover .picture::before {
